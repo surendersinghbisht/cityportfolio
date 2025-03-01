@@ -202,7 +202,7 @@ main::after {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(var(--row), 100px);
     margin-top: 50px;
-    gap: 50px;
+    gap: 50px;    
 }
 
 .grid-3{
@@ -265,4 +265,7 @@ main::after {
 }
 
 
- 
+ a{
+    text-decoration: none;
+    color: #eee;
+ }
