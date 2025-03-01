@@ -197,12 +197,6 @@ main::after {
     }
 }
 
-.main2{
-    width: min(1000px, 100vw);
-    margin: auto;
-    padding: 20px;
-}
-
 .grid{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -215,6 +209,7 @@ main::after {
     --row: 6;
     font-size: 10em;
 }
+
 .grid-3 div{
     grid-column: 2/ 6;
     text-wrap: nowrap;
@@ -242,7 +237,7 @@ main::after {
         display: block;
     }
     .grid-3{
-        font-size: 4em;
+        font-size: 3em;
         display: block;
         margin-bottom: 100px;
     }
@@ -268,3 +263,6 @@ main::after {
 .left{
     font-size: 5rem;
 }
+
+
+ 
